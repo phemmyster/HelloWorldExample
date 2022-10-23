@@ -10,10 +10,10 @@ public class ApplicationTest {
     @Test
     public void testApplication(){
         try{
-            Assert.assertEquals("Hello World!", app.getMessage());
+            Assert.assertEquals("Hello World Users!", app.getMessage());
         }
         catch (Exception e){
             Assert.fail("Message is  not Hello World!");
         }
     }
-}
+}  
